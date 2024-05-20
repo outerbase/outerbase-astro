@@ -1,0 +1,23 @@
+{
+  "name": "outerbase-astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "sync-models": "sync-database-models PATH=./models API_KEY=ib1tlx5sh28hjhmx2tsa4rhtia8pcdep4y9rvs5aefwq4jusjrfzrs5w13trjgdw"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^10.2.6",
+    "@astrojs/react": "^3.3.4",
+    "@outerbase/query-builder": "^1.0.11",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "astro": "^4.8.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
