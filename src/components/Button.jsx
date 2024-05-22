@@ -1,7 +1,7 @@
 import { db } from "../lib/db"
 
 const insertEntry = () => {
-  db.insert({name: 'John', food: 'Freeze-dried Apples'}).in('party').query()
+  db.insert({name: 'John', food: 'Freeze-dried Apples'}).into('party').query()
 }
 
 const Button = () => {
